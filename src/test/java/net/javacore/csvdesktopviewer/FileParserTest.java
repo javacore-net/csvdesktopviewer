@@ -2,6 +2,8 @@ package net.javacore.csvdesktopviewer;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.ArrayList;
+
 import org.junit.jupiter.api.Test;
 
 class FileParserTest {
@@ -15,8 +17,9 @@ class FileParserTest {
 	final void testParseCsvFile() {
 		// fail("Not yet implemented");
 		
-		boolean parsedStatus = this.fileParser.parseCsvFile();
-		assertEquals(parsedStatus, true);
+		ArrayList<Cell> cells = this.fileParser.parseCsvFile();
+		Cell firstCell = cells.get(0);
+		assertEquals(firstCell.getValue(), "fK");
 	}
 
 }

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: net.javacore.csvdesktopviewer.UtilsTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in net.javacore.csvdesktopviewer.UtilsTest
+testGetFileExtension  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <csv> but was: <.csv>
+	at net.javacore.csvdesktopviewer.UtilsTest.testGetFileExtension(UtilsTest.java:22)
+
