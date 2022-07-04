@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class FileParserTest {
-	final FileParser fileParser = new FileParser("vaccine_data_vietnam_city.csv");
+	final FileParser fileParser = new FileParser("data/vaccine_data_vietnam_city.csv");
 	@Test
 	final void testFileParser() {
 		assertInstanceOf(FileParser.class, fileParser);
